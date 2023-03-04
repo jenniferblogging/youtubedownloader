@@ -5,7 +5,7 @@ function Header(props) {
   return (
 
     <nav className="navbar navbar-expand-lg navbar-light bg-light my-3">
-      <Link className="navbar-brand px-3" to="/">{props.title}</Link>
+      <Link className="navbar-brand px-3" to="/youtubedownloader">{props.title}</Link>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
@@ -13,7 +13,7 @@ function Header(props) {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav mr-auto">
           <li className="nav-item active">
-            <Link className="nav-link" to="/">Home <span className="sr-only">(current)</span></Link>
+            <Link className="nav-link" to="/youtubedownloader">Home <span className="sr-only">(current)</span></Link>
           </li>
           <li className="nav-item">
             <Link className="nav-link" to="/about">About us</Link>
@@ -26,7 +26,7 @@ function Header(props) {
            Dropdown
   </Link>
         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-          <Link className="dropdown-item" to="/">Action</Link>
+          <Link className="dropdown-item" to="/youtubedownloader">Action</Link>
           <Link className="dropdown-item" to="/about">Another action</Link>
           <div className="dropdown-divider"></div>
           <Link className="dropdown-item" to="#">Something else here</Link>
