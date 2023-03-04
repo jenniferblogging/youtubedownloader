@@ -1,5 +1,5 @@
 {
-  "homepage":"http://jenniferblogging.github.io/youtubedownloader",
+  "homepage": "http://jenniferblogging.github.io/youtubedownloader",
   "name": "yt-downloader-app",
   "version": "0.1.0",
   "private": true,
@@ -21,7 +21,7 @@
     "deploy":"gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject":s "react-scripts eject"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
