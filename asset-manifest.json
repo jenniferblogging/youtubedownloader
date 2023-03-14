@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/youtubedownloader/static/css/main.e6c13ad2.css",
-    "main.js": "/youtubedownloader/static/js/main.99d578eb.js",
+    "main.js": "/youtubedownloader/static/js/main.bfdd7504.js",
     "static/js/787.300485e2.chunk.js": "/youtubedownloader/static/js/787.300485e2.chunk.js",
     "index.html": "/youtubedownloader/index.html",
     "main.e6c13ad2.css.map": "/youtubedownloader/static/css/main.e6c13ad2.css.map",
-    "main.99d578eb.js.map": "/youtubedownloader/static/js/main.99d578eb.js.map",
+    "main.bfdd7504.js.map": "/youtubedownloader/static/js/main.bfdd7504.js.map",
     "787.300485e2.chunk.js.map": "/youtubedownloader/static/js/787.300485e2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.99d578eb.js"
+    "static/js/main.bfdd7504.js"
   ]
 }
