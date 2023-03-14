@@ -131,7 +131,6 @@ function App() {
           }}>
           </Route>
           <Route exact exact path="/youtubedownloader/about">
-          console.log('I am an error')
             <About />
           </Route>
           <Route exact exact path="/youtubedownloader/download-guide">
