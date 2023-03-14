@@ -1,5 +1,5 @@
 {
-  "homepage": "http://jenniferblogging.github.io/youtubedownloader",
+  "homepage": "http://jenniferblogging.github.io/youtubedownloader/*",
   "name": "yt-downloader-app",
   "version": "0.1.0",
   "private": true,

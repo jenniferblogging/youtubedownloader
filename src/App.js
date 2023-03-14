@@ -121,7 +121,7 @@ function App() {
       <Router>
         <Header title={'Youtube Downloader'} searchBar={false} />
         <Switch>
-          <Route path="/youtubedownloader" render={() => {
+          <Route exact path="/youtubedownloader" render={() => {
             return (
               <>
                 <AddTodo todo={todo} todos={todos} submit={submit} />
@@ -130,10 +130,10 @@ function App() {
             )
           }}>
           </Route>
-          <Route path="/youtubedownloader/about">
+          <Route exact path="/youtubedownloader/about">
             <About />
           </Route>
-          <Route path="/youtubedownloader/download-guide">
+          <Route exact path="/youtubedownloader/download-guide">
             <Downloadguide />
           </Route>
         </Switch>
