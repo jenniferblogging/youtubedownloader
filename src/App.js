@@ -5,7 +5,9 @@ import AddTodo from './Mycomponants/AddTodo';
 import Footer from './Mycomponants/Footer';
 import About from './Mycomponants/About';
 import Downloadguide from './Mycomponants/Downloadguide';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+//import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+//Hashrouter for reload https://github.com/thenewboston-developers/Website/issues/595
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
   let storageTodos;
