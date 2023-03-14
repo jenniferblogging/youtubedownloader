@@ -1,7 +1,5 @@
 {
   "homepage": "http://jenniferblogging.github.io/youtubedownloader",
-  "homepage": "http://jenniferblogging.github.io/youtubedownloader/download-guide",
-  "homepage": "http://jenniferblogging.github.io/youtubedownloader/about",
   "name": "yt-downloader-app",
   "version": "0.1.0",
   "private": true,
