@@ -119,6 +119,8 @@ function App() {
   return (
     <>
       <Router>
+        <Route path='/404' element={<PageNotFound/>} />
+        <Route path='*' element={<Navigate replace to='/404'/>} />
         <Header title={'Youtube Downloader'} searchBar={false} />
         <Switch>
           <Route exact exact path="/youtubedownloader" render={() => {
