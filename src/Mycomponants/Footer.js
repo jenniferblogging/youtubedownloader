@@ -120,7 +120,7 @@ export default function Footer() {
           <div className="row">
             <div className="col-md-6 mt-md-0 mt-3">
               <h5 className="text-uppercase">How to Download <b>?</b></h5>
-              <p>Please click <Link to="/download-guide">here</Link> to know how to download.</p>
+              <p>Please click <Link to="/youtubedownloader/download-guide">here</Link> to know how to download.</p>
               <section className="">
                 <div className="row d-flex justify-content-center">
                   <div className="col-lg-6">
@@ -141,13 +141,13 @@ export default function Footer() {
 
               <ul className="list-unstyled">
                 <li>
-                  <Link to="/">Youtube Downloader</Link>
+                  <Link to="/youtubedownloader">Youtube Downloader</Link>
                 </li>
                 <li>
-                  <Link to="/">Home</Link>
+                  <Link to="/youtubedownloader">Home</Link>
                 </li>
                 <li>
-                  <Link to="/about">About Us</Link>
+                  <Link to="/youtubedownloader/about">About Us</Link>
                 </li>
               </ul>
 
@@ -157,17 +157,17 @@ export default function Footer() {
 
               <ul className="list-unstyled">
                 <li>
-                  <Link to="/">Current</Link>
+                  <Link to="/youtubedownloader">Current</Link>
                 </li>
                 <li>
-                  <Link to="/download-guide">How to Download ?</Link>
+                  <Link to="/youtubedownloader/download-guide">How to Download ?</Link>
                 </li>
               </ul>
             </div>
           </div>
         </div>
         <div className="footer-copyright text-center py-3">© 2023 Copyright:
-          <Link to="/"> Youtube Downloader</Link>
+          <Link to="/youtubedownloader"> Youtube Downloader</Link>
         </div>
       </footer>
     </>

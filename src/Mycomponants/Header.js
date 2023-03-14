@@ -16,10 +16,10 @@ function Header(props) {
             <Link className="nav-link" to="/youtubedownloader">Home <span className="sr-only">(current)</span></Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/about">About us</Link>
+            <Link className="nav-link" to="/youtubedownloader/about">About us</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/download-guide">How to Download ?</Link>
+            <Link className="nav-link" to="/youtubedownloader/download-guide">How to Download ?</Link>
           </li>
           {/*<li className="nav-item dropdown">
             <Link className="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -27,7 +27,7 @@ function Header(props) {
   </Link>
         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
           <Link className="dropdown-item" to="/youtubedownloader">Action</Link>
-          <Link className="dropdown-item" to="/about">Another action</Link>
+          <Link className="dropdown-item" to="/youtubedownloader/about">Another action</Link>
           <div className="dropdown-divider"></div>
           <Link className="dropdown-item" to="#">Something else here</Link>
         </div>

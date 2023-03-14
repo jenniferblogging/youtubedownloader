@@ -130,10 +130,10 @@ function App() {
             )
           }}>
           </Route>
-          <Route exact path="/about">
+          <Route exact path="/youtubedownloader/about">
             <About />
           </Route>
-          <Route exact path="/download-guide">
+          <Route exact path="/youtubedownloader/download-guide">
             <Downloadguide />
           </Route>
         </Switch>
