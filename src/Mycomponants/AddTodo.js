@@ -59,7 +59,8 @@ export default function AddTodo({todos,submit}) {
 <div className="row">
 <div className="col-sm-12">
 	<div className="single">
-		<h2>Youtube Downloader</h2>
+		{/*<h2>Youtube Downloader</h2>*/}
+    <h1>Youtube Downloader</h1>
 	<div className="input-group">
          <input type="text" className="form-control" value={heading} placeholder="Enter Youtube URL here" onChange={(e) => setHeading(e.target.value)}/>
          <span className="input-group-btn">
